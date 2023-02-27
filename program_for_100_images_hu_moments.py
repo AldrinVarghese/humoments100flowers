@@ -27,7 +27,7 @@ hu_moments_list = []
 file_names = []
 
 for i in range(1, 101):
-    image_path =os.path.abspath(f"/content/Flower_Images/00{i}.png")
+    image_path =os.path.abspath(f"/100Flowers/00{i}.png")
     hu_moments = calculate_hu_moments(image_path)
     hu_moments_list.append(hu_moments)
     file_names.append(f"00{i}.png")
